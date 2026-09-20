@@ -1,0 +1,12 @@
+#!/bin/bash
+
+checknet()
+{
+if ping -c 1 google.com >/dev/null
+then
+echo "Internet connected"
+else
+echo "Internet not connected"
+fi
+}
+checknet
