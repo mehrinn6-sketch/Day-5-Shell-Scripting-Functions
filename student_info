@@ -1,0 +1,10 @@
+#!/bin/bash
+
+studentinfo()
+{
+read -p "Enter your name:" name
+read -p "Enter your coure:" course
+read -p "Enter your batch:" batch
+echo -e "Name:$name\nCourse:$course\nBatch:batch"
+}
+studentinfo
