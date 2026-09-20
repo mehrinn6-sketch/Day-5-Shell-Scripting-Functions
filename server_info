@@ -1,0 +1,10 @@
+#!/bin/bash
+
+server_info()
+{
+user=$USER
+directory=$PWD
+
+echo -e "User:$user\nDirectory:$directory"
+}
+server_info
