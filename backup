@@ -1,0 +1,14 @@
+#!/bin/bash
+
+create_backup()
+{
+mkdir backup1
+if [ $? -eq 0 ]
+then
+echo "Backup folder creater successfully"
+else
+echo "Backup Folder Failed To Create"
+fi
+}
+create_backup
+
