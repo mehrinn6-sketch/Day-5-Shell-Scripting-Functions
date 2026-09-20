@@ -1,0 +1,13 @@
+#!/bin/bash
+
+systeminfo()
+{
+user=$USER
+shell=$SHELL
+hostname=$(hostname)
+echo "User:$user"
+echo "Shell:$shell"
+echo "Hostname:$hostname"
+}
+systeminfo
+
